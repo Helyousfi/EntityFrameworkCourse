@@ -12,7 +12,7 @@ namespace EntityFramework.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-T1SRV8U;Database=EntitiFrameworkCourse;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-T1SRV8U;Database=EntitiFrameworkCourse;Trusted_Connection=True;TrustServerCertificate=True;");
             
         }
     }
