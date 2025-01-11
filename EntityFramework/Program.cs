@@ -19,6 +19,13 @@ Product deluxeMeat = new Product()
 };
 context.Add(deluxeMeat);
 
+Product veggiePizza = new Product()
+{
+    Name = "Veggie pizza",
+    Price = 8.99M
+};
+context.Add(veggiePizza);
+
 context.SaveChanges();
 
 #endregion
